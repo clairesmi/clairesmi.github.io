@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #131515;
+  padding-top: 20px;
 
   background-image: linear-gradient(
     to bottom left, 
@@ -18,11 +19,10 @@ body {
   );
 }
 
-
 .name {
   display: flex;
   justify-content: center;
-  font-size: 90px;
+  font-size: 100px;
   text-align: center;
   margin-top: 10px;
   font-family: 'Bebas Neue', cursive;
@@ -38,10 +38,10 @@ body {
 .page-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 120vh;
+  align-items: flex-start;
+  height: 100vh;
   z-index: 1;
-  margin: 10px 20px;
+  margin: 20px 20px 0px;
   font-family: 'Roboto', sans-serif;
   color: #131515;
 }
@@ -51,7 +51,7 @@ body {
   flex-direction: column;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  height: 850px;
+  height: 800px;
   width: 70%;
   margin-left: 40px;
   overflow-y: scroll;
@@ -60,14 +60,60 @@ body {
   text-align: center;
 }
 
+.projects-title {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 100px;
+  padding-top: 20px;
+}
+
+
 .project-1 {
-  border: 1px solid black;
-  height: 100vh;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-start;
+  /* align-items: center; */
+  padding: 20px;
+  /* border: 1px solid black; */
+}
+
+.space-invaders-image {
+  width: 60%;
+  height: 300px;
+}
+
+.project-name {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+p {
+  font-size: 20px;
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.links {
+  width: 200px;
+  margin: 15px;
+  background-image: linear-gradient(
+    to bottom left, 
+    #30e8a1,
+    #ecfeaa 25%,
+    #5bc0eb 85%
+  );
 }
 
 .project-2 {
-  border: 1px solid black;
-  height: 100vh;
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding: 20px;
 }
 
 .project-3 {
@@ -86,7 +132,7 @@ body {
   flex-wrap: wrap;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  height: 850px;
+  height: 800px;
   width: 30%;
   font-size: 40px;
   overflow-y: scroll;
@@ -144,17 +190,5 @@ body {
  .technologies {
    text-align: center;
  }
-
-
-
-
-
-/* .contact {
-  background-color: white;
-  border: 2px solid black;
-  height: 500px;
-  width: 500px;
-} */
-
 
 
