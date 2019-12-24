@@ -13,6 +13,8 @@ body {
     #30e8a1,
     #ecfeaa 25%,
     #5bc0eb 85%
+
+  
   );
 }
 
@@ -55,6 +57,7 @@ body {
   overflow-y: scroll;
   scroll-behavior: smooth;
   font-size: 40px;
+  text-align: center;
 }
 
 .project-1 {
@@ -90,6 +93,12 @@ body {
   scroll-behavior: smooth;
 }
 
+.about {
+  text-align: center;
+  height: 20vh;
+  margin-top: 20px;
+}
+
 .contact {
   margin: 30px 5px 0px;
 }
@@ -110,17 +119,32 @@ body {
   width: 40px;
 }
 
+.devicon-github-plain {
+  height: 40px;
+  width: 40px;
+}
+
+.tech-logos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icons {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
 
 
-/* .technologies {
-  background-color: white;
-  border: 2px solid black;
-  height: 700px;
-  width: 350px;
-  margin-top: 600px;
-  transform: rotate(-15deg); */
-  /* clip-path: inset(0px 0px 0px 20px) */
-/* }
+
+ .technologies {
+   text-align: center;
+ }
+
 
 
 
