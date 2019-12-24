@@ -1,87 +1,136 @@
-                /* this is a CSS comment */
+* {
+  box-sizing: border-box;
+}
 
 body {
-	background-color: rgb(190,190,255);
-	background-image: url(../images/bg.jpg);
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: cover;
-	background-attachment: fixed;
-	font-family: Helvetica, Arial, sans-serif;
-}
-.main {
-	background-color: rgba(255,255,255,0.65);
-	/* box shadow = vertical, horizontal, transparency, size */
-	box-shadow: 0px 0px 12px 5px oldlace;
-	max-width: 600px;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #131515;
+
+  background-image: linear-gradient(
+    to bottom left, 
+    #30e8a1,
+    #ecfeaa 25%,
+    #5bc0eb 85%
+  );
 }
 
 
-h1 {
-	text-align: center;
-	font-size: 48px;
-	margin: 0;
-	font-family: 'Josefin Slab', serif;
-	/* text shadow = horizontal offset, vertical offset, size */
-	text-shadow: 0 0 10px yellow;
-}
-h2 {
-	text-align: center;
-	font-size: 18px;
-	font-weight: normal;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	margin: 0;
+.name {
+  display: flex;
+  justify-content: center;
+  font-size: 90px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Bebas Neue', cursive;
 }
 
-h3 {
-	margin-top: 0;
-	cursor: pointer;
+.subtitle {
+  padding-top: 25px;
+  padding-left: 40px;
+  font-size: 60px;
+  text-align: center;
 }
 
-/* + finds next element * = whatever next element is */
-
-h3 + * {
-	display: none;
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  z-index: 1;
+  margin: 10px 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #131515;
 }
 
-img {
-	display: block;
-	margin: 20px auto;
-	border: 5px dotted yellow;
-	border-radius: 10px 80px;
-	width: 200px;
-	transition: transform 0.5s;
-}
-img:hover {
-	transform: rotateZ(1800deg) scale(1.2);
-}
-/* transition on img affects hover and unhover. on img: hover it just affects the hover & not the unhover */
-
-p,
-ul,
-ol {
-	line-height: 1.6;
-	list-style: none;
-	padding-left: 0;
+.projects {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 850px;
+  width: 70%;
+  margin-left: 40px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  font-size: 40px;
 }
 
-a {
-	font-weight: bold;
-	text-decoration: none;
-	color: lightcoral;
+.project-1 {
+  border: 1px solid black;
+  height: 100vh;
 }
-/* pseudo class */
 
-a:hover,
-a:focus {
-	text-decoration: underline;
-	color: limegreen;
-	outline: none;
+.project-2 {
+  border: 1px solid black;
+  height: 100vh;
 }
-a:active {
-	color: magenta;
+
+.project-3 {
+  border: 1px solid black;
+  height: 100vh;
 }
+
+.project-4 {
+  border: 1px solid black;
+  height: 100vh;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 850px;
+  width: 30%;
+  font-size: 40px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.contact {
+  margin: 30px 5px 0px;
+}
+
+.contact-logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkedin-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.email-icon {
+  height: 40px;
+  width: 40px;
+}
+
+
+
+/* .technologies {
+  background-color: white;
+  border: 2px solid black;
+  height: 700px;
+  width: 350px;
+  margin-top: 600px;
+  transform: rotate(-15deg); */
+  /* clip-path: inset(0px 0px 0px 20px) */
+/* }
+
+
+
+
+/* .contact {
+  background-color: white;
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+} */
+
+
+
