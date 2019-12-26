@@ -8,14 +8,11 @@ body {
   justify-content: center;
   color: #131515;
   padding-top: 20px;
-
   background-image: linear-gradient(
     to bottom left, 
     #30e8a1,
     #ecfeaa 25%,
     #5bc0eb 85%
-
-  
   );
   background-size: cover;
 }
@@ -45,6 +42,10 @@ body {
   margin: 20px 20px 0px;
   font-family: 'Roboto', sans-serif;
   color: #131515;
+}
+
+.contact-hover:hover {
+  transform: scale(1.2)
 }
 
 .projects {
@@ -135,7 +136,9 @@ p {
   );
 }
 
-
+.links:hover {
+  transform: scale(1.07)
+}
 
 .about-wrapper {
   display: flex;
@@ -165,6 +168,7 @@ p {
   justify-content: space-around;
   align-items: center;
 }
+
 
 .linkedin-logo {
   height: 40px;
@@ -201,5 +205,3 @@ p {
  .technologies {
    text-align: center;
  }
-
-
