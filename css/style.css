@@ -17,6 +17,7 @@ body {
 
   
   );
+  background-size: cover;
 }
 
 .name {
@@ -39,7 +40,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  height: 100vh;
+  /* height: 100vh; */
   z-index: 1;
   margin: 20px 20px 0px;
   font-family: 'Roboto', sans-serif;
@@ -64,7 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Bebas Neue', cursive;
-  font-size: 100px;
+  font-size: 80px;
   padding-top: 20px;
 }
 
@@ -78,7 +79,31 @@ body {
   /* border: 1px solid black; */
 }
 
-.space-invaders-image {
+.project-2 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.project-3 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.project-4 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding: 20px;
+}
+
+.project-image {
   width: 60%;
   height: 300px;
 }
@@ -91,15 +116,17 @@ body {
 }
 
 p {
-  font-size: 20px;
+  font-size: 19px;
   text-align: start;
   padding-left: 20px;
   padding-right: 10px;
 }
 
 .links {
-  width: 200px;
+  width: 180px;
   margin: 15px;
+  color: #131515;
+  text-align: center;
   background-image: linear-gradient(
     to bottom left, 
     #30e8a1,
@@ -108,23 +135,7 @@ p {
   );
 }
 
-.project-2 {
-  display: flex;
-  /* border: 1px solid black; */
-  justify-content: flex-end;
-  /* align-items: center; */
-  padding: 20px;
-}
 
-.project-3 {
-  border: 1px solid black;
-  height: 100vh;
-}
-
-.project-4 {
-  border: 1px solid black;
-  height: 100vh;
-}
 
 .about-wrapper {
   display: flex;
