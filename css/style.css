@@ -46,7 +46,7 @@ body {
   align-items: center;
   z-index: 1;
   margin: 20px 20px 0px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #131515;
 }
 
@@ -157,6 +157,7 @@ p {
 }
 
 .about {
+  font-family: 'Bebas Neue', cursive;
   text-align: left;
   height: 20vh;
   margin-top: 20px;
@@ -211,6 +212,7 @@ p {
 
 
  .technologies {
+  font-family: 'Bebas Neue', cursive;
    text-align: left;
    margin-left: 35px;
  }
