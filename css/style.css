@@ -4,10 +4,11 @@
 
 body {
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   color: #131515;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   background-image: linear-gradient(
     to bottom left, 
     #30e8a1,
@@ -15,32 +16,37 @@ body {
     #5bc0eb 85%
   );
   background-size: cover;
+  margin: 0px;
 }
+
 
 .name {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  height: 10vh;
   font-size: 100px;
-  text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  /* margin-top: 10px; */
+  /* padding-bottom: 20px;s */
   font-family: 'Bebas Neue', cursive;
 }
 
 .subtitle {
   padding-top: 25px;
-  padding-left: 40px;
+  padding-left: 35px;
   font-size: 60px;
-  text-align: center;
 }
 
 .page-wrapper {
   display: flex;
+  height: 100vh;
   justify-content: center;
-  align-items: flex-start;
-  /* height: 100vh; */
+  align-items: center;
   z-index: 1;
   margin: 20px 20px 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bebas Neue', cursive;
   color: #131515;
 }
 
@@ -53,21 +59,20 @@ body {
   flex-direction: column;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  height: 800px;
+  height: 80vh;
   width: 70%;
   margin-left: 40px;
   overflow-y: scroll;
   scroll-behavior: smooth;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .projects-title {
-  display: flex;
-  flex-direction: column;
   font-family: 'Bebas Neue', cursive;
   font-size: 80px;
   padding-top: 20px;
+  margin-left: 20px;
 }
 
 
@@ -116,6 +121,7 @@ body {
   margin-top: 15px;
 }
 
+
 p {
   font-size: 19px;
   text-align: start;
@@ -123,30 +129,27 @@ p {
   padding-right: 10px;
 }
 
+
 .links {
   width: 180px;
   margin: 15px;
+  padding-top: 2px;
   color: #131515;
   text-align: center;
-  background-image: linear-gradient(
-    to bottom left, 
-    #30e8a1,
-    #ecfeaa 25%,
-    #5bc0eb 85%
-  );
+  background-color: #ecfeaa;
 }
 
 .links:hover {
-  transform: scale(1.07)
+  transform: scale(1.07);
+  font-weight: 500;
 }
 
 .about-wrapper {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  height: 800px;
+  height: 80vh;
   width: 30%;
   font-size: 40px;
   overflow-y: scroll;
@@ -154,17 +157,22 @@ p {
 }
 
 .about {
-  text-align: center;
+  text-align: left;
   height: 20vh;
   margin-top: 20px;
+  margin-left: 35px;
 }
 
 .contact {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   margin: 30px 5px 0px;
 }
 
 .contact-logos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 }
@@ -203,5 +211,6 @@ p {
 
 
  .technologies {
-   text-align: center;
+   text-align: left;
+   margin-left: 35px;
  }
