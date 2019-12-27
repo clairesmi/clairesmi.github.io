@@ -27,6 +27,7 @@ body {
 .name {
   display: flex;
   justify-content: left;
+  /* flex-wrap: wrap; */
   height: 10vh;
   font-size: 100px;
   margin-top: 15px;
