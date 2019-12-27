@@ -50,10 +50,6 @@ body {
   color: #131515;
 }
 
-.contact-hover:hover {
-  transform: scale(1.2)
-}
-
 .projects {
   display: flex;
   flex-direction: column;
@@ -64,14 +60,13 @@ body {
   margin-left: 40px;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  font-size: 40px;
   text-align: left;
 }
 
 .projects-title {
   font-family: 'Bebas Neue', cursive;
-  font-size: 80px;
-  padding-top: 20px;
+  font-size: 60px;
+  padding-top: 15px;
   margin-left: 20px;
 }
 
@@ -127,6 +122,8 @@ p {
   text-align: start;
   padding-left: 20px;
   padding-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 
@@ -136,6 +133,9 @@ p {
   padding-top: 2px;
   color: #131515;
   font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-weight: 500; */
+  letter-spacing: 0.5px;
   text-align: center;
   background-color: #ecfeaa;
 }
@@ -148,64 +148,84 @@ p {
 .about-wrapper {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   height: 80vh;
   width: 30%;
-  font-size: 40px;
+  font-size: 45px;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 .about {
   font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
   text-align: left;
-  height: 20vh;
-  margin-top: 20px;
-  margin-left: 35px;
+  /* height: 20vh; */
+  margin-top: 15px;
+  margin-left: 45px;
+  /* margin-bottom: 20px; */
+}
+
+.about-paragraph {
+  margin: 0px 25px 5px;
+
 }
 
 .contact {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  margin-left: 45px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin: 30px 5px 0px;
+  /* margin-bottom: 5px; */
 }
 
 .contact-logos {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
+  font-size: 50px;
+  padding-top: 60px;
+  margin-bottom: 5px;
+  margin-left: 290px;
 }
 
+.contact-hover:hover {
+  transform: scale(1.2)
+}
 
 .linkedin-logo {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  margin: 0px 15px;
 }
 
 .email-icon {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  margin: 0px 15px;
 }
 
 .devicon-github-plain {
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
+  margin: 0px 15px;
 }
 
 .tech-logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
 }
 
 .icons {
   display: flex;
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 75px;
   justify-content: center;
   align-items: center;
 }
@@ -214,6 +234,7 @@ p {
 
  .technologies {
   font-family: 'Bebas Neue', cursive;
-   text-align: left;
-   margin-left: 35px;
+  font-size: 60px;
+  text-align: left;
+  margin-left: 45px;
  }
