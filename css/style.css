@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+.contact-logos-mobile {
+  display: none;
+}
+
 body {
   display: flex;
   height: 100vh;
@@ -185,7 +189,6 @@ p {
 
 .contact-logos {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   font-size: 50px;
@@ -237,4 +240,67 @@ p {
   font-size: 60px;
   text-align: left;
   margin-left: 45px;
+ }
+
+
+ @media only screen and (max-width: 840px) {
+
+  .body {
+    display: flex;
+    height: 100vh;
+    align-items: space-between;
+
+  }
+
+  .page-wrapper {
+    margin-top: 10px;
+    align-items: center;
+  }
+   .projects {
+     display: none;
+   }
+
+   .about-wrapper {
+     width: 100vw;
+     height: 75vh;
+   }
+
+   .name {
+     display: flex;
+     justify-content: flex-start;
+     font-size: 70px;
+     flex-wrap: wrap;
+   }
+
+   .subtitle {
+     font-size: 40px;
+     padding-left: 5px;
+     padding-top: 5px;
+     /* align-self: flex-start; */
+   }
+
+   .contact-logos {
+     display: none;
+   }
+
+   .contact-logos-mobile {
+     display: flex;
+     font-size: 35px;
+     margin-left: 40px;
+     align-items: center;
+     /* padding-top: 40px; */
+   }
+
+   .linkedin-logo {
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px;
+  }
+  
+  .email-icon {
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px;
+  }
+
  }
