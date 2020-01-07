@@ -109,6 +109,14 @@ body {
   padding: 20px;
 }
 
+.project-5 {
+  display: flex;
+  /* border: 1px solid black; */
+  justify-content: flex-end;
+  /* align-items: center; */
+  padding: 20px;
+}
+
 .project-image {
   width: 60%;
   height: 300px;
