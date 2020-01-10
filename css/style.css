@@ -6,12 +6,23 @@
   display: none;
 }
 
+/* html {
+  background-image: linear-gradient(
+    to bottom left, 
+    #30e8a1,
+    #ecfeaa 25%,
+    #5bc0eb 85%
+  );
+  height: 100vh;
+} */
+
 body {
+  /* display: none; */
   display: flex;
   height: 100vh;
   flex-direction: column;
   justify-content: center;
-  color: #131515;
+  color: #232B2B;
   /* padding-top: 20px; */
   background-image: linear-gradient(
     to bottom left, 
@@ -33,9 +44,13 @@ body {
   margin-top: 15px;
   margin-left: 20px;
   margin-bottom: 3px;
-  /* margin-top: 10px; */
-  /* padding-bottom: 20px;s */
   font-family: 'Bebas Neue', cursive;
+  animation: title 4s;
+}
+
+@keyframes title {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .subtitle {
@@ -60,6 +75,7 @@ body {
   flex-direction: column;
   background-color: white;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.85;
   height: 80vh;
   width: 70%;
   margin-left: 40px;
@@ -145,6 +161,7 @@ p {
   margin: 15px;
   padding-top: 2px;
   color: #131515;
+  /* opacity: 0.95; */
   font-family: 'Bebas Neue', cursive;
   /* font-family: 'Roboto', sans-serif; */
   /* font-weight: 500; */
@@ -163,6 +180,7 @@ p {
   flex-direction: column;
   height: 100vh;
   background-color: white;
+  opacity: 0.85;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   height: 80vh;
   width: 30%;
@@ -214,24 +232,28 @@ p {
   height: 50px;
   width: 50px;
   margin: 0px 15px;
+  opacity: 0.8;
 }
 
 .email-icon {
   height: 50px;
   width: 50px;
   margin: 0px 15px;
+  opacity: 0.8;
 }
 
 .devicon-github-plain {
   height: 50px;
   width: 50px;
   margin: 0px 15px;
+  opacity: 0.8;
 }
 
 .tech-logos {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  /* opacity: 0.9; */
 }
 
 .icons {
@@ -265,6 +287,7 @@ p {
     margin-top: 10px;
     align-items: center;
   }
+
    .projects {
      display: none;
    }
