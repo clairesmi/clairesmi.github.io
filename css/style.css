@@ -427,6 +427,8 @@ p {
     margin-left: 0px;
     height: 45vh;
     padding-top: 10px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
   }
   .project-3 {
     padding-top: 0;
