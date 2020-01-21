@@ -414,10 +414,14 @@ p {
   .about-wrapper {
     width: 100vw;
     height: 35vh;
+    margin-left: 0px;
     /* margin-top: 100px; */
   }
 
   .projects {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     width: 100vw;
     margin-top: 0px;
     margin-left: 0px;
