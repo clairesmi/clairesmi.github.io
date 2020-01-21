@@ -421,6 +421,7 @@ p {
   .projects {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     /* flex-wrap: wrap; */
     width: 100vw;
     margin-top: 0px;
